@@ -204,8 +204,9 @@ class ReactionTimeDetector:
         # This is a simplified version - would need more sophisticated tracking
         
         # Estimate reaction time based on frame count
-        frames_since_change = 5  # Simplified - would track actual frames
-        reaction_time_ms = frames_since_change * (1000 / self.tracking_fps)
+        # In production, this would track actual frames from trajectory change to contact
+        estimated_frames_to_contact = len(self.ball_history) - trajectory_change["frame"]
+        reaction_time_ms = estimated_frames_to_contact * (1000 / self.tracking_fps)
         
         return {
             "insufficient_time": reaction_time_ms < self.max_time_ms,
