@@ -65,7 +65,7 @@ output/
 !yolov8n-pose.pt
 
 # Media
-*.mp4
+# *.mp4
 *.avi
 *.mov
 *.mkv
@@ -76,7 +76,7 @@ output/
 *.bmp
 
 # labels
-labels/
+labels/ 
 
 # OS specific
 .DS_Store
