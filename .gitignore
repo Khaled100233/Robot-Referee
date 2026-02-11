@@ -69,6 +69,14 @@ output/
 *.avi
 *.mov
 *.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# labels
+labels/
 
 # OS specific
 .DS_Store
