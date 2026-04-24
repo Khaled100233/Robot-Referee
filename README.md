@@ -167,18 +167,6 @@ The `notebooks/` directory contains step-by-step Jupyter notebooks:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue first to discuss what you'd like to change.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙏 Acknowledgements
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) for pose estimation and object detection
